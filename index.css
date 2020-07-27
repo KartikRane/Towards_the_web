@@ -1,0 +1,95 @@
+<style type="text/css">
+
+div{
+	background: yellow;
+	height: 200px;
+	width: 200px;
+}
+
+h1{
+	border: 3px solid black;
+}
+
+@media (min-width: 992px){
+
+.box1,.box2,.box3{
+	float: left;
+	border: 3px solid black;
+	height:360px;
+	width: 200px;
+	margin-left: 12%;
+	}
+
+	.box1{
+		background: #40e3d0;
+		
+	}
+	.box2{
+		background:#f7877c;
+		
+	}
+	.box3{
+		background:#edafe4;
+	
+	}
+}
+
+
+@media (min-width:768px) and (max-width: 991px){
+
+
+	.box1,.box2,.box3{
+	float: left;
+	border: 3px solid black;
+	height:300px;
+	width: 250px;
+	margin-left: 12%;
+	}
+
+	.box1{
+		background: #40e3d0;
+	}
+	.box2{
+		background:#f7877c;
+		margin-left: 15%;
+	}
+	.box3{
+		background:#edafe4;
+		height:200px;
+		width: 80%;
+		margin-top: 30px;
+		margin-right: 10px;
+		
+	}
+}
+
+@media (max-width: 767px){
+	.box1,.box2,.box3{
+		float: left;
+		border: 3px solid black;
+		height: 200px;
+		width: 500px;
+		margin-left: 20px;
+	}
+
+	.box1{
+		background:#40e3d0;
+	}
+	.box2{
+		background:#f7877c;
+		margin-top: 10px;
+	}
+	.box3{
+		background:#edafe4;
+		margin-top: 10px;
+	}
+
+
+
+}
+
+
+</style>
+
+
+
